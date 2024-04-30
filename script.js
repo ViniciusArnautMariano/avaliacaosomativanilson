@@ -1,7 +1,7 @@
 const canvas = document.getElementById("meuCanvas");// Obtendo o elemento canvas do HTML pelo ID
 const ctx = canvas.getContext("2d");// Obtendo o contexto de renderização 2D do canvas
 const Img = new Image();// Criando um novo objeto de imagem
-Img.src = "aeronave.png"; // Carrega a imagem da nave
+Img.src = "./img/aeronave.png"; // Carrega a imagem da nave
 let bottomRightPos = { x: canvas.width - 100, y: canvas.height - 100 }; // Define a posição inicial da imagem no canto inferior direito do canvas
 const imgWidth = 100; // Define a largura da imagem da nave
 
